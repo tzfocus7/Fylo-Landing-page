@@ -1,0 +1,316 @@
+body{
+    margin: 8px;
+    display: block;
+    color: white;
+    background-color: hsl(218, 28%, 13%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px;
+    background-color: hsl(217, 28%, 15%);
+}
+.nav-links li{
+    display: inline;
+    list-style: none;
+    margin: 10px;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(218, 28%, 13%);
+        align-items: center;
+    }
+    .intro-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 5em;
+    }
+    button{
+        border-radius: 30px;
+        background-color: rgb(32, 201, 207);
+        padding: 20px;
+        width: 300px;
+        cursor: pointer;
+    }
+    .illustration-intro{
+        margin-bottom: 30px;
+    }
+    .pane{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .left-pane,.right-pane{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-top,.right-top,.left-bottom,.right-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        text-align: center;
+    }
+    .illustration-stay{
+        display: flex;
+        margin: 50px;
+        justify-content: center;
+        background-color: hsl(218, 28%, 13%);
+    
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 100px;
+        padding: 20px;
+    }
+    .image{
+        margin: 20px;
+        align-items: center;
+    }
+    .heading{
+        margin-top: 100px;
+    }
+    .Team{
+        display: flex;
+        flex-direction: row; 
+        margin: 150px 100px 20em 100px;
+    
+    }
+    .first, .second, .third{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px; 
+        background-color:  hsl(219, 30%, 18%);  
+        padding: 20px 20px 10px 20px;
+        position: relative;
+        z-index: 999;
+        left: 10px;
+        top: 25px;
+    }
+    .on-top{
+        position: absolute;
+        z-index: 10;
+    }
+    .first-content2, .second-content2, .third-content2{
+        display: flex;  
+    }
+    .first-content2-image, .second-content2-image, .third-content2-image{
+        padding: 10px;
+    }
+    .first-content2-text, .second-content2-text, .third-content2-text{
+        margin-top: -5px;
+        font-size: 11px;
+    }
+    
+    
+    .footer{
+        display: flex;
+        margin-top: 20px;
+        
+    }
+    .social-media{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .handle{
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .contact-icon, .contact, .blog, .terms{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 50px 0px 50px;
+    }
+    .contact-align{
+        margin: 5px 0px;
+    }
+    .contact-image{
+        margin: 30px;
+    }
+    p.latin-align{
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+    .contact-image2{
+        margin-top: 10px;
+    }
+    .contact-image3{
+        margin-top: 17px;
+    }
+    .contact-align1{
+        margin: 5px -80px;
+    }
+    .form{
+        display: block;
+        text-align: center;
+        align-items: center;
+        padding: 40px 30px 20px 30px;
+        background-color:rgba(1, 6, 39, 0.445);
+        box-shadow: 5px 5px 5px hsl(216deg 53% 9%);
+        position: absolute;
+        top: 140em;
+        left: 18em;   
+    }
+    .last-box{
+        display: flex;
+        flex-direction: column;
+        padding: 100px 100px 0px 100px;
+        background-color: hsl(216, 53%, 9%);
+        font-size: 15px;
+    }
+    #input1, #input2{
+        margin-top: 10px;
+        border-radius: 40px;
+        padding: 10px;
+        width: 200px;
+    }
+    #input1{
+        width: 400px;
+    }
+    #form-text{
+        margin-top: 2px;
+        font-size: 12px;
+        color: rgb(180, 12, 12);
+    }
+
+@media screen and (max-width: 520px){   
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    width: auto;
+}
+.navbar .logo img{
+    width: 100px;
+    height: 30px;
+    margin-top: 12%;
+}
+
+.About{
+        
+}
+.illustration-intro img{
+    width: 300px;
+    height: 300px;
+    margin: 10px auto 1opx auto;
+}
+.intro-content button{
+    width: 200px;
+    padding: 10px;
+}
+.left-pane{
+    margin-top: -20%;
+}
+.left-top{
+    margin-top: 10%;
+}
+.right-top{
+    padding-top: 
+}
+.left-bottom{
+    margin-top: 25%;
+}
+.illustration-stay{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: 450px;
+   
+}
+.illustration-stay div img{
+   width: 200px;
+   height: 150px;
+}
+.illustration-stay .content{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 10px;
+    
+}
+.content .heading{
+    margin-top: -1%;
+}
+.Team{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.paragraph p a img{
+    width: 10px;
+    height: 10px;
+}
+.on-top{
+
+}
+.Team img{
+    width: 30px;
+    height: 30px;
+}
+.first, .second,.third{
+    margin-bottom: 10px;
+}
+
+.form{
+    position: absolute;
+    top: 185em;
+    left: 1.8em;
+    width: 350px;
+}
+.form #input1{
+    width: 120px;
+    padding: 2px;
+}
+#input2{
+    width: 100px;
+    padding: 0;
+}
+.last-box{
+    margin-top: 60%;
+    padding: 10px;
+}
+.logo2{
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin-top: 0px;
+}
+.latin{
+    padding-top: 0px;
+}
+
+}
+
+@media screen and (width:1115px){
+    .form{
+         position: absolute;
+         top: 145em;
+         left: 12em;
+    }
+   
+}
+
+
+   
